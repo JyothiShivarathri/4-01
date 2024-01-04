@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        .b1{
+            height:700px;
+            width:500px;
+            border:2px solid black;
+            display: inline-block;
+            margin:100px;
+
+        }
+        .nav{
+            display:flex;
+            justify-content: space-between;
+            background-color: chartreuse;
+            width:500px;
+            height:80px;
+        }
+        i{
+            font-size: 24px;
+        } 
+        #menu{
+            padding-left:10px;
+            font-size: 24px;
+            padding-top:29px;
+        }
+        #phone{
+            padding-right: 20px;
+            font-size: 24px;
+            padding-top:29px;
+        }
+        .header{
+            display:flex;
+            height:50px;
+            width:500px;
+        }
+        .drop{
+            background-color:blue;
+            font-size: 20px;
+            color:white;
+            width:50%;
+            text-align: center;
+            padding-top:10px;
+        }
+        .pickup{
+            font-size: 20px;
+            color:rgb(163, 159, 159);
+            width:50%;
+            padding-top:10px;
+            text-align: center;
+        }
+        .stick{
+            width:80%;
+            margin-top: 10px;
+            margin-left:15px;
+            margin-right:10px;
+        }
+        .stick p{
+            text-align: center;
+        }
+        .b2{
+            display:flex;
+        }
+        input{
+        width:245px;
+        }
+        button{
+            background-color: blue;
+            color: white;
+            font-size: 20px;
+            width:450px;
+            height:50px;
+            margin-left: 20px;
+            margin-right: 20px;
+            position:relative;
+            bottom: 30px;
+            
+        }
+        .box2{
+              margin-top: -900px;
+              margin-left: 800px;
+              height:700px;
+              width:500px;
+        }
+        .img{
+            height:350px;
+            width:500px;
+        }
+        .phn{
+             display: flex;
+             padding: 20px;
+          
+        }
+        .phn p{
+            margin-top: -2px;
+            margin-left:40px;
+        }
+        .mail{
+            display: flex;
+            padding: 20px;
+          
+        }
+        .mail p{
+            margin-top: -2px;
+            margin-left:45px;
+        }
+        .pwd{
+            display: flex;
+            padding: 20px;
+           
+        }
+        .pwd p{
+            margin-top: -2px;
+            margin-left:45px;
+        }
+        
+        .bottom{
+            display:flex;
+            height:50px;
+            width:500px;
+            position:absolute;
+            bottom:20px;
+        }
+        .logout{
+            background-color:chartreuse;
+            font-size: 20px;
+            color:black;
+            width:50%;
+            text-align: center;
+            padding-top:10px;
+            border:1px solid white
+        }
+        .save{
+            background-color:chartreuse;
+            font-size: 20px;
+            color:black;
+            width:50%;
+            padding-top:10px;
+            text-align: center;
+        }
+        .msg{
+            margin-top: -10px;
+            margin-left:240px;
+        }
+    </style>
+</head>
+<body>
+    <div class="b1">
+      <div class="nav">
+        <i class="fa-solid fa-bars" id="menu"></i>
+        <h1 style="padding-top:5px;">Book Now</h1>
+        <i class="fa-solid fa-phone" id="phone"></i>
+       </div>
+       <div class="header">
+        <div class="pickup">
+            PICKUP
+        </div>
+        <div class="drop">
+            DROP OFF
+        </div>
+       </div>
+       <div class="stick">
+        <p>addresss address adress address address address addresss address adress address address address</p>
+       </div>
+       <div class="b2">
+        <div class="Date">
+            <input type="date">
+        </div>
+        <div class="time">
+         <input type="time">
+        </div>
+       </div>
+       <div class="main">
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61028.68107983182!2d79.23082205432625!3d17.058336095804165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb29a00bf2e473%3A0x3e702bcb93d76309!2sNalgonda%2C%20Telangana!5e0!3m2!1sen!2sin!4v1704348837549!5m2!1sen!2sin" width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+       <button>NEXT</button>
+    </div>
+</div>
+<div class="box2">
+    <div class="b1">
+        <div class="nav">
+          <i class="fa-solid fa-bars" id="menu"></i>
+          <h1 style="padding-top:5px;">Book Now</h1>
+          <i class="fa-solid fa-phone" id="phone"></i>
+         </div>
+        <div class="img">
+         <img src="./tangled.jpg" height="350px" width="500px">
+        </div>
+        <div class="phn">
+        <i class="fa-solid fa-mobile-screen-button" style="display: inline-block;"></i>
+        <p><u>+91 87895 647901</u></p>
+        <div class="msg" style="margin-left:240px;">
+        <i class="fa-regular fa-pen-to-square"></i>
+        </div>
+       </div>
+       <div class="mail">
+        <i class="fa-solid fa-envelope" style="display: inline-block;"></i>
+        <p><u>test@gmail.com</u></p>
+        <div class="msg">
+        <i class="fa-regular fa-pen-to-square"></i>
+        </div>
+       </div>
+       <div class="pwd">
+        <i class="fa-solid fa-key"  style="display: inline-block;"></i>
+        <p><u>***********</u></p>
+        <div class="msg"  style="margin-left:260px;">
+        <i class="fa-regular fa-pen-to-square"></i>
+        </div>
+       </div>
+       
+       <div class="bottom">
+          <div class="logout">LOGOUT</div>
+          <div class="save">SAVE</div>
+       </div>
+</div>
+</body>
+</html>
